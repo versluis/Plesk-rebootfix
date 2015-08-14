@@ -13,7 +13,9 @@ I used to issue all four commands manually, but it's much faster by running the 
 
 # Usage
 The only file necessary is rebootfix.sh. Copy it to a safe location and add execute permissions using
+
     chmod +x ./rebootfix.sh
+
 Run the script with root privileges after your server restarts.
 
 # Known Issues
