@@ -1,7 +1,7 @@
 # Plesk rebootfix
 Linux script that fixes trouble after Plesk server restarts, when both NGINX and Apache are working together. 
 
-Since Plesk 11.5, NGINX can act as a proxy server so that the bulk of all web files can be served faster by NGINX and not by Apache. This makes sites faster and keeps the number of concurrent connetions to the web server smaller, while lowering memory usage at the same time.
+Since Plesk 11.5, NGINX can act as a proxy server so that the bulk of all web files can be served by NGINX and not by Apache. This makes sites faster and keeps the number of concurrent connetions to the web server smaller, while lowering memory usage at the same time.
 
 The problem is, on a great number of servers NGINX cannot make a connection to Apache after a full server restart. As a result, all websites are down until this is fixed in four easy steps. This script alleviates such issues by doing the following:
 - stop NGINX
